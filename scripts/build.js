@@ -42,7 +42,7 @@ const getFlagEmojis = async (pretty = false) => {
         codesp: code.toLowerCase(),
         // emoji: codePoints.map(codePoint => String.fromCodePoint(codePoint)).join(''),
         unicode: codePoints.map(codePoint => `U+${codePoint.toString(16).toUpperCase()}`).join(' '),
-        image: `//sitemap-1305356416.cos.na-siliconvalley.myqcloud.com/engage/images/setting/countryflag/${code}.svg`
+        image: `//sitemap-myqcloud.com/images/countryflag/${code}.svg` // 生成服务器地址 要修改
       };
     }
   }).filter(Boolean);
