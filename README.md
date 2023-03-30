@@ -1,9 +1,8 @@
-# Country Flag Emoji JSON
-
-[![Latest Version](https://badgen.net/npm/v/country-flag-emoji-json)](https://www.npmjs.com/package/country-flag-emoji-json)
+# Country Flag JSON
 
 Country flag emojis in JSON format and SVG image.
 
+各个国家有各个国家的国旗
 ## CDN
 ```js
 [
@@ -25,13 +24,11 @@ Country flag emojis in JSON format and SVG image.
 ```
 
 - `name`: The country name
-- `code`: The country code based on [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+- `code`: The country code
 - `unicode`: The unicode code points for presenting the emoji flag
 - `image`: The country flag SVG image url
 
-### List of Country Flag Emojis by Country Code
-
-
+### List of Country Flag by Country Code
 
 ## Generate the JSON
 
